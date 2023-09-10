@@ -38,6 +38,7 @@ public class QuizServiceImpl implements QuizService {
 //                Boolean corrctAnswer = capitalAndAnswer.get(answer);
                 //TODO Обработать ошибку
 
+
                 if(item.getValue().get(answer)){
                     correctAnswer++;
                 }
